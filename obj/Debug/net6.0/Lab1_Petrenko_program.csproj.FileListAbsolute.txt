@@ -1,0 +1,15 @@
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\bin\Debug\net6.0\Lab1_Petrenko_program.exe
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\bin\Debug\net6.0\Lab1_Petrenko_program.deps.json
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\bin\Debug\net6.0\Lab1_Petrenko_program.runtimeconfig.json
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\bin\Debug\net6.0\Lab1_Petrenko_program.dll
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\bin\Debug\net6.0\Lab1_Petrenko_program.pdb
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.csproj.AssemblyReference.cache
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.GeneratedMSBuildEditorConfig.editorconfig
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.AssemblyInfoInputs.cache
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.AssemblyInfo.cs
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.csproj.CoreCompileInputs.cache
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.dll
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\refint\Lab1_Petrenko_program.dll
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.pdb
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\Lab1_Petrenko_program.genruntimeconfig.cache
+D:\універ\2023-2024\ООП\Lab1_Petrenko_program\obj\Debug\net6.0\ref\Lab1_Petrenko_program.dll
