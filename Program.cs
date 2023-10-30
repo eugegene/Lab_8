@@ -1,5 +1,5 @@
 ﻿using System;
-
+//pushed
 namespace Lab1_Petrenko_program
 {
     internal class Program
