@@ -67,15 +67,101 @@
 –	Код програми
 –	Результати детального тестування програми (навести скріншоти виконання тестування програми, або скопіювати і вставити у звіт вивід програми на екран)
 
+## ХІД РОБОТИ
 
+#Опис програми
+Мова програмування: С#
+ОС: Windows 10
+Процесор: AMD Ryzen 5 4600H
+Компілятор: MS Visual Studio 2022
 
+Опис програми:
+1.	Написана програма є електронним щоденником, який заповнює користувач. Програма містить в собі клас Lesson, з відповідними для занять характеристиками (дата, коли відбудеться пара, номер пари за розкладом, дисципліна, номер тижня, формат проведення заняття). Деякі з них загальнодоступні, а інші з обмеженим доступом.
+private DateTime lessonDate – Інформація про дату занять.
+private int lessonNumber – Інформація про номер занять.
+private string subject – Назва занять.
+public enum LessonType – Інформація про тип проведення занять.
+private bool isNumerator – Інформація про номер тижня.
+private bool isRemedial – Автовластивість (чи є предмет заліковим).
+2.	Програмна реалізація класу:
+public class Lesson
+    {
+        private DateTime lessonDate;
+        private int lessonNumber;
+        private string subject;
+        private LessonType type;
+        private bool isNumerator;
+        private bool isRemedial;
 
-## Зміст звіту
-–	Титульний аркуш
-–	Завдання
-–	Виконання (до кожного завдання навести скріншоти, файл Readme.md з розміткою Markdown навести у звіті цілком).
+        public Lesson(DateTime lessonDate, int lessonNumber, string subject, LessonType type, bool isNumerator, bool isRemedial)
+        {
+            this.lessonDate = lessonDate;
+            this.lessonNumber = lessonNumber;
+            this.subject = subject;
+            this.type = type;
+            this.isNumerator = isNumerator;
+            this.isRemedial = isRemedial;
+            TotalHours = lessonDuration(type);
+        }
 
+        public DateTime LessonDate
+        {
+            get { return lessonDate; }
+            set { lessonDate = value; }
+        }
 
+        public int LessonNumber
+        {
+            get { return lessonNumber; }
+            set { lessonNumber = value; }
+        }
+
+        public string Subject
+        {
+            get { return subject; }
+            set { subject = value; }
+        }
+
+        public LessonType Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+
+        public bool IsNumerator
+        {
+            get { return isNumerator; }
+            set { isNumerator = value; }
+        }
+
+        public bool IsRemedial
+        {
+            get { return isRemedial; }
+        }
+
+        public double TotalHours { get; private set; }
+
+        private double lessonDuration(LessonType type)
+        {
+            if (type == LessonType.Online)
+            {
+                return 1.5;
+            }
+            else
+            {
+                return 2;
+            }
+        }
+    }
+
+    public enum LessonType
+    {
+        Online,
+        InPerson,
+        Hybrid
+    }
+
+1.	Class Diagram
 
 
    [dill]: <https://github.com/joemccann/dillinger>
